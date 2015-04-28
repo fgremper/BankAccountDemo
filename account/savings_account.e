@@ -15,8 +15,8 @@ feature -- Operations
     pay_out_interest
             -- calculate interest
         do
-            balance := balance * 1.05
-            log.put_right("Paid out 5 percent interest%N")
+            balance := balance * 1.03
+            log.put_right("Paid out 3 percent interest%N")
         end
 
 end
