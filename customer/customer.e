@@ -14,7 +14,7 @@ feature {NONE} -- Initialization
         do
             name := a_name
             first_name := a_first_name
-            -- TODO: set age!
+            age := a_age
         end
 
 feature -- Customer operations
@@ -34,7 +34,7 @@ feature -- Customer operations
     set_age(a_age: INTEGER)
             -- sets the age of the customer to 'a_age'
         do
-            -- TODO!
+            age := a_age
         end
 
 feature -- Customer properties
