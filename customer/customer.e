@@ -37,6 +37,12 @@ feature -- Customer operations
             -- TODO!
         end
 
+    set_middle_name(a_middle_name: STRING)
+            -- sets the middle name of the customer to 'a_middle_name'
+        do
+            middle_name := a_middle_name
+        end    
+
 feature -- Customer properties
 
     name: STRING
@@ -48,4 +54,6 @@ feature -- Customer properties
     age: INTEGER
              -- age of the customer
 
+    middle_name: STRING
+             -- the first name of the customer
 end
