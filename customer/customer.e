@@ -14,7 +14,7 @@ feature {NONE} -- Initialization
         do
             name := a_name
             first_name := a_first_name
-            age := a_age
+            -- TODO: set age!
         end
 
 feature -- Customer operations
@@ -34,14 +34,8 @@ feature -- Customer operations
     set_age(a_age: INTEGER)
             -- sets the age of the customer to 'a_age'
         do
-            age := a_age
+            -- TODO!
         end
-
-    set_middle_name(a_middle_name: STRING)
-            -- sets the middle name of the customer to 'a_middle_name'
-        do
-            middle_name := a_middle_name
-        end    
 
 feature -- Customer properties
 
@@ -54,6 +48,4 @@ feature -- Customer properties
     age: INTEGER
              -- age of the customer
 
-    middle_name: STRING
-             -- the first name of the customer
 end
